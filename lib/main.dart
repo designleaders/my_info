@@ -45,9 +45,8 @@ class MyApp extends StatelessWidget {
                     color: Colors.black,
                   ),
                 ),
-                Container(
+                Card(
                   margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
-                  padding: EdgeInsets.all(10),
                   color: Colors.white,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -69,9 +68,8 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                Container(
+                Card(
                   margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
-                  padding: EdgeInsets.all(10),
                   color: Colors.white,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
